@@ -58,3 +58,12 @@ h2 {
     display: block;
     box-shadow: 7px 7px 20px rgb(0, 0, 0, 0.2);
 }
+
+@media screen and (max-width: 600px) {
+    .menu a{
+        margin: 1rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
